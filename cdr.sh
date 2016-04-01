@@ -1,4 +1,4 @@
-cdrlist=($pwd)
+cdrlist=($(pwd))
 function cdr {
   if [ $# -eq 0 ]; then
     # listing
